@@ -15,7 +15,7 @@ app.use((req, res, next) => {
 
 // Ruta de inicio o raiz
 app.get("/", (req, res) => {
-  res.status(200).end("Bienvenido a la API de Transportes con MongoDB y NodeJS");
+  res.status(200).end("Bienvenido a la API de un supermercado con MongoDB y NodeJS");
 });
 
 

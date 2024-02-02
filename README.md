@@ -108,7 +108,7 @@ app.post("/supermercado", async (req, res) => {
 
 ```javascript
 PORT=3008
-MONGODB_URLSTRING=mongodb+srv://acappellibuenosaires:urXa8NTRn5cf04RO@cluster0.jlra35f.mongodb.net/?retryWrites=true&w=majority
+MONGODB_URLSTRING=mongodb+srv://<usuario>:<password>@cluster0.jlra35f.mongodb.net/?retryWrites=true&w=majority
 
 MONGODB_DATABASE="supermercado"
 
